@@ -2,7 +2,7 @@
 
 
 ```
-project-root/
+finstats/
 ├── backend/                  # FastAPI backend
 │   ├── main.py               # API entrypoint
 │   ├── auth.py               # JWT and password handling
