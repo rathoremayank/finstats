@@ -1,0 +1,46 @@
+# === Global ===
+.DS_Store
+*.env
+*.log
+
+# === Python (Backend) ===
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# === FastAPI (Uvicorn logs etc.) ===
+*.db
+instance/
+.env
+
+# === Node (Frontend) ===
+node_modules/
+dist/
+build/
+.cache/
+.vite/
+*.tsbuildinfo
+
+# === OS Files ===
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === IDE Files ===
+.vscode/
+.idea/
+*.sw?
+
+# === Coverage & Test Artifacts ===
+coverage/
+htmlcov/
+.pytest_cache/
+
+# === Zip & Archives ===
+*.zip
+*.tar.gz
+*.rar
+*.7z
